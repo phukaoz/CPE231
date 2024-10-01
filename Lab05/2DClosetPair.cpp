@@ -12,8 +12,8 @@ struct Point
 
 float dist(const Point& a, const Point& b)
 {
-    int dx = a.x - b.x;
-    int dy = a.y - b.y;
+    const float dx = a.x - b.x;
+    const float dy = a.y - b.y;
     return std::sqrt(dx*dx + dy*dy);
 }
 
